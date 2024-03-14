@@ -2,10 +2,10 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "topRow": 16,
+    "topRow": 0,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 29,
+    "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"},
@@ -25,6 +25,7 @@
         {"key": "schema.__root_schema__.children.start_date.borderRadius"},
         {"key": "schema.__root_schema__.children.state.defaultValue"},
         {"key": "schema.__root_schema__.children.state.accentColor"},
+        {"key": "schema.__root_schema__.children.state.borderRadius"},
         {"key": "schema.__root_schema__.children.context_account_id.defaultValue"},
         {"key": "schema.__root_schema__.children.context_account_id.accentColor"},
         {"key": "schema.__root_schema__.children.context_account_id.borderRadius"},
@@ -36,8 +37,7 @@
         {"key": "schema.__root_schema__.children.uuid.borderRadius"},
         {"key": "schema.__root_schema__.defaultValue"},
         {"key": "schema.__root_schema__.borderRadius"},
-        {"key": "schema.__root_schema__.cellBorderRadius"},
-        {"key": "schema.__root_schema__.children.state.borderRadius"}
+        {"key": "schema.__root_schema__.cellBorderRadius"}
     ],
     "showReset": false,
     "flexVerticalAlignment": "start",
@@ -56,7 +56,7 @@
         "Layout"
     ],
     "isLoading": false,
-    "submitButtonLabel": "Next",
+    "submitButtonLabel": "Submit",
     "childStylesheet": {
         "CHECKBOX": {
             "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
@@ -136,7 +136,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 87,
+    "originalBottomRow": 71,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -172,7 +172,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": "Bruno Wüthrich Service-Schreinerei",
+                "sourceData": "Mittelland Holzbau AG",
                 "fieldType": "Text Input"
             },
             "created_at": {
@@ -194,7 +194,7 @@
                 "iconAlign": "left",
                 "position": 5,
                 "isDisabled": false,
-                "sourceData": "2024-03-08T08:48:21Z",
+                "sourceData": "2024-03-13T08:09:33Z",
                 "fieldType": "Text Input"
             },
             "state": {
@@ -238,7 +238,7 @@
                 "iconAlign": "left",
                 "position": 1,
                 "isDisabled": false,
-                "sourceData": "649.4184.8772.08",
+                "sourceData": "464.3847.3322.91",
                 "fieldType": "Text Input"
             },
             "uuid": {
@@ -260,7 +260,7 @@
                 "iconAlign": "left",
                 "position": 6,
                 "isDisabled": false,
-                "sourceData": "b15ccc48-eff4-4baa-9f6e-b660c4dfaf40",
+                "sourceData": "94e4dbd1-2981-448a-9208-bdd385b65272",
                 "fieldType": "Text Input"
             },
             "start_date": {
@@ -273,7 +273,7 @@
                 "convertToISO": false,
                 "children": {},
                 "isDisabled": false,
-                "sourceData": "2024-03-11",
+                "sourceData": "2024-03-13",
                 "labelTextSize": "0.875rem",
                 "identifier": "start_date",
                 "isRequired": false,
@@ -309,20 +309,20 @@
                 "iconAlign": "left",
                 "position": 4,
                 "isDisabled": false,
-                "sourceData": "b15ccc48-eff4-4baa-9f6e-b660c4dfaf40",
+                "sourceData": "94e4dbd1-2981-448a-9208-bdd385b65272",
                 "fieldType": "Text Input"
             }
         },
         "position": -1,
         "isDisabled": false,
         "sourceData": {
-            "name": "Bruno Wüthrich Service-Schreinerei",
-            "created_at": "2024-03-08T08:48:21Z",
+            "name": "Mittelland Holzbau AG",
+            "created_at": "2024-03-13T08:09:33Z",
             "state": "CONFIRMED",
-            "peax_id": "649.4184.8772.08",
-            "uuid": "b15ccc48-eff4-4baa-9f6e-b660c4dfaf40",
-            "start_date": "2024-03-11",
-            "context_account_id": "b15ccc48-eff4-4baa-9f6e-b660c4dfaf40"
+            "peax_id": "464.3847.3322.91",
+            "uuid": "94e4dbd1-2981-448a-9208-bdd385b65272",
+            "start_date": "2024-03-13",
+            "context_account_id": "94e4dbd1-2981-448a-9208-bdd385b65272"
         },
         "cellBoxShadow": "none",
         "fieldType": "Object"
@@ -337,22 +337,22 @@
     },
     "dynamicPropertyPathList": [{"key": "schema.__root_schema__.children.start_date.defaultValue"}],
     "displayName": "JSON Form",
-    "bottomRow": 87,
+    "bottomRow": 71,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Form",
     "hideCard": false,
-    "mobileRightColumn": 55,
-    "parentColumnSpace": 24.96875,
+    "mobileRightColumn": 59,
+    "parentColumnSpace": 39.109375,
     "dynamicTriggerPathList": [],
     "borderWidth": "1",
     "sourceData": "{{accounts.selectedRow}}",
     "resetButtonLabel": "Reset",
-    "key": "pm657a01p2",
+    "key": "0pmnxrcmd7",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 54,
-    "widgetId": "g4chqh7lad",
+    "rightColumn": 57,
+    "widgetId": "hazw8hg65f",
     "minWidth": 450,
     "parentId": "0",
     "renderMode": "CANVAS",
@@ -360,8 +360,8 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 16,
-    "mobileLeftColumn": 30,
+    "originalTopRow": 0,
+    "mobileLeftColumn": 34,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
 }
