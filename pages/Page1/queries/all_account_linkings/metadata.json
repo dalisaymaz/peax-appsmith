@@ -18,7 +18,7 @@
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
       "encodeParamsToggle": true,
-      "body": " select a.name, a.peax_id, start_date, state, context_account_id, cal.created_at, a.uuid\n from core_feature_account.client_account_linking cal\n left join portal.pro_account a on  a.uuid=cal.context_account_id\n order by cal.start_date DESC",
+      "body": " select a.name, a.peax_id, start_date, ia.name as InterationApplication, state, context_account_id, cal.created_at, a.uuid\n from core_feature_account.client_account_linking cal\n left join portal.pro_account a on  a.uuid=cal.context_account_id\n left join core_feature_account.integrator_application ia on ia.id=cal.integrator_application_id\n order by cal.start_date DESC\n",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
         {

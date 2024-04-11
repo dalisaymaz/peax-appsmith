@@ -1,4 +1,5 @@
- select a.name, a.peax_id, start_date, state, context_account_id, cal.created_at, a.uuid
+ select a.name, a.peax_id, start_date, ia.name as InterationApplication, state, context_account_id, cal.created_at, a.uuid
  from core_feature_account.client_account_linking cal
  left join portal.pro_account a on  a.uuid=cal.context_account_id
+ left join core_feature_account.integrator_application ia on ia.id=cal.integrator_application_id
  order by cal.start_date DESC
