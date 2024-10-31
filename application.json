@@ -3,6 +3,11 @@
   "applicationDetail": {
     "appPositioning": {
       "type": "FIXED"
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
     }
   },
   "applicationVersion": 2,
@@ -19,6 +24,11 @@
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"
+    },
+    "themeSetting": {
+      "appMaxWidth": "LARGE",
+      "density": 1.0,
+      "sizing": 1.0
     }
   }
 }
